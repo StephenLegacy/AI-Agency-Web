@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Hero Section */
+.hero {
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 90vh;
+    width: 215vh;
+    background: url('bana2.jpeg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgba(87, 54, 54, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+/* About Section */
+.about-us{
+    /* display: flex; */
+    align-content: center;
+    text-align: center;
+    margin-left: 14px;
+    margin-right: 16px;
+    align-items: center;
+    padding: 50px;
+    font-size: 24px;
+    border-radius: 10px;
+    background: white;
+}
+
+.about img {
+    width: 50%;
+    height: auto;
+}
+
+.about-text {
+    /* flex: 1; */
+    padding: 20px;
+}
+
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 50px;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+}
+
+.service-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 30%;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px;
+    background: #333;
+    color: white;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px;
+    background: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+}
