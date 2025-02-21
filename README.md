@@ -1,6 +1,7 @@
 # **AI Agency Website**  
 
 *StephenLegacy*
+*Files available in the master branch*
 
 AI-Agency-Website is a modern, responsive, and high-performance website designed for AI-driven businesses and tech agencies. Built with scalability and efficiency in mind, this project ensures a seamless user experience while showcasing AI-powered services effectively.  
 
